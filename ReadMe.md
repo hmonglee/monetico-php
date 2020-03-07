@@ -56,7 +56,7 @@ $purchase = new PurchaseRequest([
     'email' => 'john@snow.stark',
     'amount' => 42,
     'currency' => 'EUR',
-    'datetime' => new DateTime(),
+    'dateTime' => new DateTime(),
     'successUrl' => 'http://localhost/thanks',
     'errorUrl' => 'http://localhost/oops',
 ]);
